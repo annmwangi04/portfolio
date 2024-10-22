@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    background-color: rgb(73, 138, 138);
+    flex-direction: column;
+    padding: 15px;
+}
+.navbar{
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.content-section{
+    background-color: plum;
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+}
+.sidebar{
+    padding: 15px;
+    background-color: palevioletred;
+    margin-right: 5px;
+    flex-basis: 240px;
+    text-align: center;
+}
+.main-content{
+    padding: 15px;
+    background-color: aliceblue;
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column  ;
+}
+.content-row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.row11{
+    background-color: burlywood;
+    padding: 70px;
+    min-width: 10%;
+
+}
+.row12{
+    background-color:brown ;
+    padding: 70px;
+    min-width: 10%;
+
+}
+.row13{
+    background-color: blueviolet;
+    padding: 70px;
+    min-width: 10%;
+
+}
+.content-row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.row21{
+    padding: 50px;
+    background-color:aqua;
+    min-width: 10%;
+}
+.row22{
+    padding: 50px;
+    background-color: blueviolet;
+    min-width: 10%;
+
+}
+.row23{
+    padding: 50px;
+    background-color: chartreuse;
+    min-width: 10%;
+
+}
+.row24{
+    padding: 50px;
+    background-color: chocolate;
+    min-width: 10%;
+
+}
+.content-row3{
+    background-color: yellow;
+}

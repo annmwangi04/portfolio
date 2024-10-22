@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(39, 128, 39);
+}
+#nav-container-name{
+    color: red;
+    font-size: 2.4cm;
+}
+#corousel-item{
+    max-height: 90vh;
+}
+p{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+h2{
+    color: white;
+}
+.custom-card{
+    max-height: 300PX;
+    
+}
+.page-section{
+    margin: 20px;
+}
+@media screen and (max-width:601px) {
+    .page-sections{
+        margin: 5px;
+    }
+
+}
+button{
+    align-items: center;
+}

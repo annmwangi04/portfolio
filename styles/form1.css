@@ -1,0 +1,39 @@
+.form-section{
+    display: flex;
+    flex-direction: column;
+
+}
+.form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+form{
+    text-align: center;
+    border: solid, 2px black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: rgb(104, 6, 39);
+    padding: 20px;
+    width: 30%;
+    float: left;
+    margin-left: 30%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+input{
+    border: solid, 1px palevioletred;
+    height: 25px;
+}
+textarea{
+    border: solid, 1px palevioletred;
+    height: 25px;
+    width: 82%;
+}
+button{
+    border: solid, 1px palevioletred;
+    padding: 7px, 15px;
+    background-color:burlywood;
+    border-radius: 15px;
+}
